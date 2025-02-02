@@ -7,11 +7,17 @@ This project aims to develop a non-invasive, cost-effective fetal movement monit
 **Components Used:**
 
   1.ESP32 Microcontroller: Serves as the main processing unit and handles Bluetooth communication.
+  
   2.MPU6050 Accelerometers: Three accelerometers are used to capture fetal movements.
+  
   3.TCA9548A I2C Multiplexer: Allows multiple I2C devices to communicate with the ESP32.
+  
   4.Bluetooth Module: Integrated within the ESP32 to transmit data to a mobile application.
+  
   5.Buzzer: Provides audible alerts for abnormal conditions.
+  
   6.(3.7V) Batteries and BMS Board: Power the system and manage battery health.
+  
   7.MIT App Inventor: Used to develop the mobile application that receives and displays fetal movement data.
 
 **Step-by-Step Build Process:**
